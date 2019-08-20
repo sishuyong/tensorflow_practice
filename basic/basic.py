@@ -26,10 +26,13 @@ import tensorflow as tf
 import numpy as np
 
 
-def test_lr():
+def tensorflow_lr():
+    """
+    tensorflow 求解线性回归
+    """
     # tensorflow中大部分数据是float32
     # create real data
-    x_data = np.random.randn(100).astype(np.float32)
+    x_data = np.random.rand(100).astype(np.float32)
     y_data = x_data * 0.1 + 0.3
 
     # create tensorflow structure start
@@ -69,4 +72,4 @@ def test_lr():
 
 
 if __name__ == '__main__':
-    test_lr()
+    tensorflow_lr()
