@@ -6,3 +6,5 @@
 *.ckpt.data*
 *.ckpt.index*
 *.ckpt.meta*
+data/*
+data.zip
