@@ -1,3 +1,8 @@
 *.xml
 *.iml
 *.local
+
+*checkpoint*
+*.ckpt.data*
+*.ckpt.index*
+*.ckpt.meta*
