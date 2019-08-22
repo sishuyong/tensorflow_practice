@@ -2,7 +2,7 @@
 """
  @Time    : 2019-08-22 11:25
  @Author  : sishuyong
- @File    : embedding_tf.py
+ @File    : embedding_basic.py
  @brief   :
 """
 
