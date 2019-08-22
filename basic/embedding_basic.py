@@ -10,7 +10,7 @@ import tensorflow as tf
 import numpy as np
 
 
-def em_test():
+def embedding_lookup():
     # embedding lookup
     embedding = tf.constant(
         [
@@ -39,7 +39,7 @@ def em_test():
         print("#" * 50)
 
 
-def t_em_2():
+def embedding_lookup2():
     # embedding lookup
     embedding = tf.get_variable(name="embedding", shape=[4, 4], dtype=tf.float32,
                                 initializer=tf.random_uniform_initializer)
@@ -123,7 +123,7 @@ def sparse_embedding():
 
 
 if __name__ == "__main__":
-    # em_test()
-    # t_em_2()
-    # get_gather()
+    embedding_lookup()
+    embedding_lookup2()
+    get_gather()
     sparse_embedding()
